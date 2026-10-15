@@ -12,4 +12,4 @@ for rank, d in enumerate(data, start=1):
     print("---------------------------------")
     print(d.get_summary())
     print(d.get_summary())
-   
+    print()
