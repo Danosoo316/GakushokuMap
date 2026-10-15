@@ -1,12 +1,12 @@
 from maps.AbstractGakushoku import AbstractGakushoku
 
-class k25029susume(AbstractGakushoku):
+class GakushokuSample(AbstractGakushoku):
 
     def get_menu(self):
-        return "ころうどん"
+        return "オススメの学食メニューをここに書きます"
 
     def get_summary(self):
-        return "とても安いから"
+        return "オススメのポイントやなぜオススメできるかなど、簡単に書きます"
 
     def get_author(self):
-        return "k25029"
+        return "書いた人の名前を書きます"
