@@ -9,4 +9,4 @@ class k25029susume(AbstractGakushoku):
         return "とても安いから"
 
     def get_author(self):
-        return "k25029" 
+        return "k25029"
