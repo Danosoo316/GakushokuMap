@@ -1,6 +1,6 @@
 from maps.AbstractGakushoku import AbstractGakushoku
 
-class GakushokuSample(AbstractGakushoku):
+class k25029susume(AbstractGakushoku):
 
     def get_menu(self):
         return "ころうどん"
@@ -9,4 +9,4 @@ class GakushokuSample(AbstractGakushoku):
         return "とても安いから"
 
     def get_author(self):
-        return "糟谷"
+        return "k25029"
