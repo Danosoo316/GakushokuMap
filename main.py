@@ -5,7 +5,7 @@ from maps.k25061 import k25061
 from maps.K25078Osusume import K25078Osusume
 
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
-data = [k25029susume(), K25043Sample(), k25061(), K25078Osusume()
+data = K25078Osusume(), K25043Sample(), k25029susume(), k25061()
 
 for rank, d in enumerate(data, start=1):
     print(f"{rank}位: {d.get_menu()}")
